@@ -1,0 +1,5 @@
+Bird,Попугай,2
+Mammal,Тигр,5
+Reptile,Змея,3
+ZooKeeper
+Veterinarian
