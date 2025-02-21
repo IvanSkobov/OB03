@@ -1,5 +1,5 @@
-Bird,Попугай,2
-Mammal,Тигр,5
-Reptile,Змея,3
+Bird,РџРѕРїСѓРіР°Р№,2
+Mammal,РўРёРіСЂ,5
+Reptile,Р—РјРµСЏ,3
 ZooKeeper
 Veterinarian

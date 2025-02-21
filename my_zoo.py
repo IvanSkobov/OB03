@@ -54,7 +54,7 @@ class Zoo:
         print(f"Добавлен {staff_member.__class__.__name__} в зоопарк.")
 
     def save_to_file(self, filename):
-        with open(filename, "w") as file:
+        with open(filename, "w", encoding="utf-8") as file:
             for animal in self.animals:
                 file.write(animal.to_string() + "\n")
             for staff in self.staff:
@@ -63,7 +63,7 @@ class Zoo:
 
     def load_from_file(self, filename):
         try:
-            with open(filename, "r") as file:
+            with open(filename, "r", encoding="utf-8") as file:
                 lines = file.readlines()
                 self.animals = []
                 self.staff = []
